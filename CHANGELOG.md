@@ -1,4 +1,4 @@
-# VIT-B VTOP Native — Changelog
+# VTOP Native (VIT Bhopal Campus) — Changelog
 
 Versioning is **Version.Revision**. Each release lives in its own folder, named with its stage: V0 to V7 are **alpha** (`V0-alpha` … `V7-alpha`), V8 onward **beta** (`V8-beta`, `V9-beta`, …); each folder's APK carries the same suffix (e.g. `build-output/VTOP-Native-V9-beta.apk`).
 A version bump resets the revision to 0.
