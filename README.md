@@ -22,6 +22,12 @@ Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 
 **Updating:** install the newer APK over the old one; your settings and theme are kept. You sign in again only when VTOP has ended your session.
 
+**Coming from an alpha, or a beta downloaded before 29 Oct 2026?** Those builds were signed with a temporary test key, and Android only updates an app with an APK signed by the same key. Uninstall the old app first, then install the new one (this clears its saved data; just sign in again).
+
+**Checking the APK is genuine:** every release from V8-beta on is signed with the app's release key, certificate SHA-256
+`70:09:39:69:C0:6F:73:12:B7:5B:A1:E6:3C:D0:54:42:CB:EE:9D:97:30:F6:4F:AF:A9:44:52:E5:88:41:41:10`.
+Any APK with a different certificate didn't come from this page.
+
 **Requirements:** Android 8.0 or newer, an internet connection, and a VIT Bhopal VTOP account.
 
 ## What it does
