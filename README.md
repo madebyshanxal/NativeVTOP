@@ -10,13 +10,13 @@ VTOP works, but on a phone it's a desktop site squeezed onto a small screen. **V
 
 Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 
-**Latest version:** V10-beta · [Changelog](CHANGELOG.md)
+**Latest version:** V10.1-beta · [Changelog](CHANGELOG.md)
 
 > This repository hosts the app's releases (APKs), this README, the changelog, the [licence](LICENSE) and [third-party notices](NOTICE). The app is **closed source**; its source code is not published here.
 
 ## Download and install
 
-1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V10-beta.apk`).
+1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V10.1-beta.apk`).
 2. Open the downloaded file. If Android asks, allow your browser or Files app to **install unknown apps**.
 3. Tap **Install**, then open **VTOP Native**.
 
@@ -46,7 +46,7 @@ Any APK with a different certificate didn't come from this page.
 | **System Status** | Checks whether VTOP's portal, login, captcha and student data are up, with 30-day uptime, response times, incidents, and optional notifications when something goes down. |
 | **Session timer** | Shows the minutes left before VTOP's 20-minute idle sign-out, like the portal's header; tap it to restart the countdown. |
 | **Offline** | Pages you've opened are saved on your phone, so they open instantly and still show (marked "Offline") when VTOP can't be reached. |
-| **Reload** | Pull down on any page, or **double-tap its tab** in the bottom bar, to fetch it from VTOP again. |
+| **Reload** | Pull down on any page, or **double-tap its tab** in the bottom bar, to fetch it from VTOP again. Double-tapping **Menu** scrolls it back to the top. |
 | **Look and feel** | Material 3 Expressive design with VTOP's navy colours, light and dark mode (or follow the system), optional wallpaper colours, frosted glass bars, and smooth animations. Works in portrait and landscape, on phones, foldables and tablets. Back always returns to the previous screen. |
 
 ## Privacy and security
@@ -57,7 +57,7 @@ Any APK with a different certificate didn't come from this page.
 
 ## Versions
 
-Versions are numbered **Version.Revision** with a stage suffix: V0 to V7 were **alpha**; V8 onward are **beta** (for example V10-beta, shown in the app as "Version: V10-beta · Build: DDMMYYYY"). Every change is listed in the [changelog](CHANGELOG.md).
+Versions are numbered **Version.Revision** with a stage suffix: V0 to V7 were **alpha**; V8 onward are **beta** (for example V10.1-beta, shown in the app as "Version: V10.1-beta · Build: DDMMYYYY"; a revision such as .1 means small fixes and UI tweaks). Every change is listed in the [changelog](CHANGELOG.md).
 
 ## Known limits
 

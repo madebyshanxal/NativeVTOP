@@ -3,6 +3,13 @@
 Versioning is **Version.Revision**. Each release lives in its own folder, named with its stage: V0 to V7 are **alpha** (`V0-alpha` … `V7-alpha`), V8 onward **beta** (`V8-beta`, `V9-beta`, …); each folder's APK carries the same suffix (e.g. `build-output/VTOP-Native-V9-beta.apk`).
 A version bump resets the revision to 0.
 
+## V10.1-beta — 2026-10-29
+Revision: UI/UX tweaks.
+- **Double-tap Menu to go back to the top.** Double-tapping the Menu tab now scrolls the module list straight back to the top from wherever you are (it no longer re-reads the sidebar). The other tabs still reload their page on a double-tap; a single tap never scrolls or reloads.
+- **Cleaner sign-in form.** The box around the sign-in fields is gone: the fields sit straight on the page and are borderless, softly tinted from the theme so they blend into dark and light mode alike (the captcha panel matches). The OTP field follows the same style.
+- **No more coloured strip on top of cards.** The thin accent line along the top of every card (dashboard widgets, Attendance, Exam Schedule, Spot-light, System Status and its incidents) is removed throughout the app. Each card's state still shows where it did before: attendance in its ring, exam countdowns and status in their pills.
+- Release-signed APK: `VTOP-Native-V10.1-beta.apk`, version `10.1-beta`, shown in the app as "Version: V10.1-beta".
+
 ## V10-beta — 2026-10-29
 Major version: V8's look back, and double-tap to reload.
 - **Light and dark mode look as they did in V8.** V9's blue, green, aqua and indigo-violet gradients behind every screen are removed: screens use the theme's plain background again, and the sign-in page has V8's soft drifting blobs of the theme's own colours behind its frosted card. Frosted bars, the login glass and all motion are unchanged.
