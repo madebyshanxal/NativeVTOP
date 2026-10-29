@@ -1,12 +1,13 @@
-# VIT-B VTOP Native
+# VTOP Native (VIT Bhopal Campus)
 
-VTOP works, but on a phone it's a desktop site squeezed onto a small screen. **VIT-B VTOP Native** is an unofficial Android app that talks directly to the official VTOP backend ([vtop.vitbhopal.ac.in](https://vtop.vitbhopal.ac.in/vtop)), using your own login and VTOP's own captcha, and shows everything in proper native screens. It's **for VIT Bhopal University students only**, and appears on your phone as **VTOP Native**.
+**VTOP, rebuilt as a real Android app.** VTOP Native is an unofficial, fully native app for VIT Bhopal's VTOP portal ([vtop.vitbhopal.ac.in](https://vtop.vitbhopal.ac.in/vtop)). It signs in with your own VTOP login and VTOP's own captcha, talks directly to the official VTOP backend, and shows everything in fast, clean Material 3 Expressive screens instead of a desktop site squeezed onto your phone. It's **for VIT Bhopal University students only**.
 
-- Attendance with "can skip / must attend" counts, plus today's classes, marks, grades, exam countdowns and curriculum progress
-- Mirrors VTOP's own menu and dashboard live, so when the SDC team adds or moves something, the app follows
-- Saves what it loads, so pages open instantly and stay readable offline
-- A System Status page that tracks VTOP's uptime and tells you when it's down
-- Material 3 Expressive, dark and light themes, and layouts for phones, tablets and laptops
+- **Your day at a glance**: today's classes with the one in progress highlighted, attendance with "can skip / must attend" counts, marks, grades, exam countdowns and curriculum progress
+- **The whole portal, natively**: every module in VTOP's menu opens as a native screen, with forms, uploads, receipts, gate passes and downloads; VTOP is never shown as a web page
+- **Always in step with VTOP**: the menu and dashboard are read live, so when the SDC team adds or moves something, the app follows
+- **Fast and offline-ready**: pages open instantly from what the app has saved and stay readable when VTOP is down; pull down or **double-tap a tab** to reload
+- **System Status**: tracks VTOP's uptime and can notify you when it goes down
+- **Made for every screen**: dark and light themes, frosted-glass bars, smooth motion, and layouts for phones, foldables, tablets and laptops
 
 Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 
@@ -32,7 +33,7 @@ Any APK with a different certificate didn't come from this page.
 
 ## What it does
 
-| | |
+| Feature | What you get |
 |---|---|
 | **Sign-in** | The same as the website: registration number, password and VTOP's own captcha, plus the OTP step when VTOP asks for one. Nothing is remembered; the fields are always empty when you open the app or sign out. |
 | **Home** | Your photo, name, register number and programme; VTOP's system status; the portal's own dashboard widgets (course registration, CGPA and credits, proctor message, Spot-light notices); then Attendance, Time Table, Marks, Grades, Exam Schedule and Curriculum at a glance. |
@@ -68,7 +69,7 @@ Versions are numbered **Version.Revision** with a stage suffix: V0 to V7 were **
 
 ## Disclaimer
 
-VIT-B VTOP Native is an **unofficial** app. It is not affiliated with, endorsed by, or connected to VIT Bhopal University or its Software Development Cell. "VTOP" and "VIT" and their logos belong to their respective owners. All data in the app comes live from VTOP and is shown as VTOP serves it.
+VTOP Native is an **unofficial** app. It is not affiliated with, endorsed by, or connected to VIT Bhopal University or its Software Development Cell. "VTOP" and "VIT" and their logos belong to their respective owners. All data in the app comes live from VTOP and is shown as VTOP serves it.
 
 ## License
 
