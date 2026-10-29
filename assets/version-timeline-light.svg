@@ -1,0 +1,70 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="330" viewBox="0 0 960 330" role="img" aria-label="VTOP Native versions: V0 to V7 alpha, V8 to V10.2 beta, current status Stability, V11 will be the first stable release">
+<rect x="0.5" y="0.5" width="959" height="329" rx="14" fill="#ffffff" stroke="#d0d7de"/>
+<text x="32" y="44" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="20" font-weight="700" fill="#1f2328">VTOP Native · version history</text>
+<text x="32" y="68" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" fill="#59636e">From the first alpha to the first stable release · Oct 2026</text>
+<rect x="732" y="26" width="196" height="34" rx="17" fill="#1a7f37" fill-opacity="0.18" stroke="#1a7f37"/>
+<circle cx="752" cy="43" r="5" fill="#1a7f37"/>
+<text x="766" y="48" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#1f2328">Status: Stability</text>
+<rect x="26.0" y="98" width="492.8" height="28" rx="8" fill="#8250df" fill-opacity="0.18"/>
+<text x="272.4" y="117" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">Alpha · V0–V7</text>
+<rect x="526.8" y="98" width="273.2" height="28" rx="8" fill="#0969da" fill-opacity="0.18"/>
+<text x="663.4" y="117" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">Beta · V8–V10.2</text>
+<rect x="818.0" y="98" width="124.0" height="28" rx="8" fill="#1a7f37" fill-opacity="0.18"/>
+<text x="880.0" y="117" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">Release · V11</text>
+<line x1="56.0" y1="182" x2="770.0" y2="182" stroke="#d0d7de" stroke-width="4" stroke-linecap="round"/>
+<line x1="770.0" y1="182" x2="880.0" y2="182" stroke="#1a7f37" stroke-width="3" stroke-dasharray="6 6"/>
+<circle cx="56.0" cy="182" r="7" fill="#8250df" stroke="#ffffff" stroke-width="2"/>
+<text x="56.0" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V0</text>
+<text x="56.0" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">27 Oct</text>
+<circle cx="110.9" cy="182" r="7" fill="#8250df" stroke="#ffffff" stroke-width="2"/>
+<text x="110.9" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V1</text>
+<text x="110.9" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">27 Oct</text>
+<circle cx="165.8" cy="182" r="7" fill="#8250df" stroke="#ffffff" stroke-width="2"/>
+<text x="165.8" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V2</text>
+<text x="165.8" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">28 Oct</text>
+<circle cx="220.8" cy="182" r="7" fill="#8250df" stroke="#ffffff" stroke-width="2"/>
+<text x="220.8" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V3</text>
+<text x="220.8" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">28 Oct</text>
+<circle cx="275.7" cy="182" r="7" fill="#8250df" stroke="#ffffff" stroke-width="2"/>
+<text x="275.7" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V4</text>
+<text x="275.7" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">28 Oct</text>
+<circle cx="330.6" cy="182" r="7" fill="#8250df" stroke="#ffffff" stroke-width="2"/>
+<text x="330.6" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V4.1</text>
+<text x="330.6" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">28 Oct</text>
+<circle cx="385.5" cy="182" r="7" fill="#8250df" stroke="#ffffff" stroke-width="2"/>
+<text x="385.5" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V5</text>
+<text x="385.5" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">28 Oct</text>
+<circle cx="440.5" cy="182" r="7" fill="#8250df" stroke="#ffffff" stroke-width="2"/>
+<text x="440.5" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V6</text>
+<text x="440.5" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">28 Oct</text>
+<circle cx="495.4" cy="182" r="7" fill="#8250df" stroke="#ffffff" stroke-width="2"/>
+<text x="495.4" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V7</text>
+<text x="495.4" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">28 Oct</text>
+<circle cx="550.3" cy="182" r="7" fill="#0969da" stroke="#ffffff" stroke-width="2"/>
+<text x="550.3" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V8</text>
+<text x="550.3" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">28 Oct</text>
+<circle cx="605.2" cy="182" r="7" fill="#0969da" stroke="#ffffff" stroke-width="2"/>
+<text x="605.2" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V9</text>
+<text x="605.2" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">28 Oct</text>
+<circle cx="660.2" cy="182" r="7" fill="#0969da" stroke="#ffffff" stroke-width="2"/>
+<text x="660.2" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V10</text>
+<text x="660.2" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">29 Oct</text>
+<circle cx="715.1" cy="182" r="7" fill="#0969da" stroke="#ffffff" stroke-width="2"/>
+<text x="715.1" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V10.1</text>
+<text x="715.1" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">29 Oct</text>
+<circle cx="770.0" cy="182" r="17" fill="#0969da" fill-opacity="0.18"/>
+<circle cx="770.0" cy="182" r="10" fill="#0969da" stroke="#ffffff" stroke-width="3"/>
+<text x="770.0" y="154" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#0969da">LATEST</text>
+<text x="770.0" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V10.2</text>
+<text x="770.0" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">29 Oct</text>
+<circle cx="880.0" cy="182" r="10" fill="#ffffff" stroke="#1a7f37" stroke-width="3" stroke-dasharray="4 3"/>
+<text x="880.0" y="154" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" font-weight="700" fill="#1a7f37">STABLE</text>
+<text x="880.0" y="214" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="13" font-weight="600" fill="#1f2328">V11</text>
+<text x="880.0" y="232" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="11" fill="#59636e">Next</text>
+<circle cx="38" cy="296" r="6" fill="#8250df"/>
+<text x="50" y="301" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#59636e">Alpha: building the app</text>
+<circle cx="235.79999999999998" cy="296" r="6" fill="#0969da"/>
+<text x="247.79999999999998" y="301" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#59636e">Beta: polish and fixes, release-signed from V8</text>
+<circle cx="585.4" cy="296" r="6" fill="#1a7f37"/>
+<text x="597.4" y="301" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="12" fill="#59636e">Release: stable, from V11 (-release)</text>
+</svg>

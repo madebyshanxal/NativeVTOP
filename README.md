@@ -11,9 +11,28 @@
 
 Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 
-**Latest version:** V10.2-beta · [Changelog](CHANGELOG.md)
+> [!IMPORTANT]
+> **We don't collect any data, and none of the students' data is visible to us.** VTOP Native is only an Android-native VTOP client: it runs entirely on your phone and talks to VIT Bhopal's own servers. Nothing is connected to us; there is no server, account, analytics or tracking of ours.
+
+**Latest version:** V10.2-beta · **Status: Stability** · [Changelog](CHANGELOG.md)
 
 > This repository hosts the app's releases (APKs), this README, the changelog, the [licence](LICENSE) and [third-party notices](NOTICE). The app is **closed source**; its source code is not published here.
+
+## Project status: Stability
+
+The beta series has reached **system stability**: the app is feature-complete, release-signed, and recent versions only polish and fix it. **The next version, V11-release, will be the first stable release**, and every version after it carries the `-release` suffix.
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/version-timeline-dark.svg">
+  <img src="assets/version-timeline-light.svg" alt="Version timeline: V0 to V7 alpha (27–28 Oct 2026), V8 to V10.2 beta (28–29 Oct 2026, V10.2 is the latest), status Stability, and V11 next as the first stable release." width="100%">
+</picture>
+
+| Stage | Versions | What it meant |
+|---|---|---|
+| **Alpha** | V0 – V7 | Building the app: sign-in, native screens for every module, offline caching, System Status, the design system |
+| **Beta** | V8 – V10.2 (latest) | Polish and fixes on a complete app; release-signed APKs from V8 on |
+| **Stability** | now | The app has reached system stability; preparing the first stable release |
+| **Release** | V11 onward | Stable versions, named `V<n>-release` |
 
 ## Download and install
 
@@ -52,13 +71,15 @@ Any APK with a different certificate didn't come from this page.
 
 ## Privacy and security
 
+**We don't collect any data, and none of the students' data is visible to us.** This is only an Android-native VTOP client: nothing in the app is connected to us. Everything you see comes straight from VTOP to your phone and stays on your phone.
+
 - **Your credentials go only to `vtop.vitbhopal.ac.in`.** The app talks only to VIT Bhopal's servers: VTOP; VIT's payment gateway when you pay fees; and VIT Bhopal's main website (`vitbhopal.ac.in`, an empty request) when System Status needs to tell a weak connection from a VTOP outage. There are no analytics, no ads and no third-party servers.
 - Your **password is never saved**. Your VTOP session is kept in the app's encrypted storage, and saved pages stay in the app's private storage; both are deleted when you sign out.
 - Permissions: **Internet**, and **Notifications** (optional, only for System Status alerts).
 
 ## Versions
 
-Versions are numbered **Version.Revision** with a stage suffix: V0 to V7 were **alpha**; V8 onward are **beta** (for example V10.2-beta, shown in the app as "Version: V10.2-beta · Build: DDMMYYYY"; a revision such as .2 means small fixes and UI tweaks). Every change is listed in the [changelog](CHANGELOG.md).
+Versions are numbered **Version.Revision** with a stage suffix: V0 to V7 were **alpha**; V8 to V10.2 are **beta**; from V11 every version is a stable **release** (`V11-release`, `V11.1-release`, …) (for example V10.2-beta, shown in the app as "Version: V10.2-beta · Build: DDMMYYYY"; a revision such as .2 means small fixes and UI tweaks). Every change is listed in the [changelog](CHANGELOG.md).
 
 ## Known limits
 

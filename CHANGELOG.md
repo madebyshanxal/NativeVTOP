@@ -1,6 +1,7 @@
 # VTOP Native (VIT Bhopal Campus) — Changelog
 
-Versioning is **Version.Revision**. Each release lives in its own folder, named with its stage: V0 to V7 are **alpha** (`V0-alpha` … `V7-alpha`), V8 onward **beta** (`V8-beta`, `V9-beta`, …); each folder's APK carries the same suffix (e.g. `build-output/VTOP-Native-V9-beta.apk`).
+Versioning is **Version.Revision**. Each release lives in its own folder, named with its stage: V0 to V7 are **alpha** (`V0-alpha` … `V7-alpha`), V8 to V10.2 **beta** (`V8-beta` … `V10.2-beta`), and from V11 every version is a stable **release** (`V11-release`, …); each folder's APK carries the same suffix (e.g. `build-output/VTOP-Native-V10.2-beta.apk`).
+Current status: **Stability**. The beta series has reached system stability; V11-release will be the first stable version.
 A version bump resets the revision to 0.
 
 ## V10.2-beta — 2026-10-29
