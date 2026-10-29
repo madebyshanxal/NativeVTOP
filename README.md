@@ -1,4 +1,7 @@
-# VTOP Native (VIT Bhopal Campus)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/banner-dark.svg">
+  <img src="assets/banner-light.svg" alt="VTOP Native (VIT Bhopal Campus): the VIT seal, the app's name and the VIT Bhopal logo" width="100%">
+</picture>
 
 **VTOP, rebuilt as a real Android app.** VTOP Native is an unofficial, fully native app for VIT Bhopal's VTOP portal ([vtop.vitbhopal.ac.in](https://vtop.vitbhopal.ac.in/vtop)). It signs in with your own VTOP login and VTOP's own captcha, talks directly to the official VTOP backend, and shows everything in fast, clean Material 3 Expressive screens instead of a desktop site squeezed onto your phone. It's **for VIT Bhopal University students only**.
 
@@ -98,4 +101,11 @@ The app is distributed free of charge as a compiled APK only, for personal, non-
 
 ---
 
-© 2026 Shanzal Firoz. All rights reserved.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/madebyshanxal-dark.svg">
+    <img src="assets/madebyshanxal-light.svg" alt="made by shanxal" width="200">
+  </picture>
+  <br>
+  <sub>© 2026 Shanzal Firoz. All rights reserved.</sub>
+</p>

@@ -1,4 +1,9 @@
-# VTOP Native (VIT Bhopal Campus) — Changelog
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/madebyshanxal/NativeVTOP/raw/main/assets/banner-dark.svg">
+  <img src="https://github.com/madebyshanxal/NativeVTOP/raw/main/assets/banner-light.svg" alt="VTOP Native (VIT Bhopal Campus): the VIT seal, the app's name and the VIT Bhopal logo" width="100%">
+</picture>
+
+# Changelog
 
 Versioning is **Version.Revision**. Each release lives in its own folder, named with its stage: V0 to V7 are **alpha** (`V0-alpha` … `V7-alpha`), V8 to V10.2 **beta** (`V8-beta` … `V10.2-beta`), and from V11 every version is a stable **release** (`V11-release`, …); each folder's APK carries the same suffix (e.g. `build-output/VTOP-Native-V10.2-beta.apk`).
 Current status: **Stability**. The beta series has reached system stability; V11-release will be the first stable version.
