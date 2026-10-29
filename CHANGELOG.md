@@ -3,6 +3,16 @@
 Versioning is **Version.Revision**. Each release lives in its own folder, named with its stage: V0 to V7 are **alpha** (`V0-alpha` … `V7-alpha`), V8 onward **beta** (`V8-beta`, `V9-beta`, …); each folder's APK carries the same suffix (e.g. `build-output/VTOP-Native-V9-beta.apk`).
 A version bump resets the revision to 0.
 
+## V10.2-beta — 2026-10-29
+Revision: System Status bug fix.
+- **No more false "Degraded" or "Major outage" when your own connection drops.** Before, any check that couldn't reach VTOP (internet off, airplane mode, weak signal, switching networks) was recorded as VTOP being down, and a reply slowed by a weak signal was recorded as VTOP being slow. Now System Status only records VTOP's own condition:
+  - With no working internet, VTOP isn't checked at all; the page keeps the last results and says you're offline.
+  - When VTOP doesn't answer, or answers slowly, the app checks your connection against VIT Bhopal's main website (a separate server). If that's unreachable or slow too, the problem is your connection: parts of VTOP that didn't answer aren't counted as down, slow replies aren't counted as degraded, and the page says so. If your connection is fine, VTOP really is down or slow, and it's recorded as before (with the usual notifications).
+  - VTOP answering with an error is always counted, whatever your connection.
+  - The login check no longer reports "No login token issued" as an outage when the landing page simply didn't answer, and an expired sign-in no longer counts as a Student Data Backend outage.
+- **History cleaned up**: outages recorded by earlier versions only because the phone had no internet (failed name lookups) are removed from the 30-day bars and the incident list.
+- Release-signed APK: `VTOP-Native-V10.2-beta.apk`, version `10.2-beta`, shown in the app as "Version: V10.2-beta".
+
 ## V10.1-beta — 2026-10-29
 Revision: UI/UX tweaks.
 - **Double-tap Menu to go back to the top.** Double-tapping the Menu tab now scrolls the module list straight back to the top from wherever you are (it no longer re-reads the sidebar). The other tabs still reload their page on a double-tap; a single tap never scrolls or reloads.

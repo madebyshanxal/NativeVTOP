@@ -6,18 +6,18 @@
 - **The whole portal, natively**: every module in VTOP's menu opens as a native screen, with forms, uploads, receipts, gate passes and downloads; VTOP is never shown as a web page
 - **Always in step with VTOP**: the menu and dashboard are read live, so when the SDC team adds or moves something, the app follows
 - **Fast and offline-ready**: pages open instantly from what the app has saved and stay readable when VTOP is down; pull down or **double-tap a tab** to reload
-- **System Status**: tracks VTOP's uptime and can notify you when it goes down
+- **System Status**: tracks VTOP's uptime and can notify you when it goes down, without mistaking your own bad signal for a VTOP outage
 - **Made for every screen**: dark and light themes, frosted-glass bars, smooth motion, and layouts for phones, foldables, tablets and laptops
 
 Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 
-**Latest version:** V10.1-beta · [Changelog](CHANGELOG.md)
+**Latest version:** V10.2-beta · [Changelog](CHANGELOG.md)
 
 > This repository hosts the app's releases (APKs), this README, the changelog, the [licence](LICENSE) and [third-party notices](NOTICE). The app is **closed source**; its source code is not published here.
 
 ## Download and install
 
-1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V10.1-beta.apk`).
+1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V10.2-beta.apk`).
 2. Open the downloaded file. If Android asks, allow your browser or Files app to **install unknown apps**.
 3. Tap **Install**, then open **VTOP Native**.
 
@@ -44,7 +44,7 @@ Any APK with a different certificate didn't come from this page.
 | **Profile** | Your full VTOP profile with photo; on wide screens and in landscape the sections sit side by side. |
 | **Every other module** | Every module in VTOP's menu opens natively: forms, file uploads, tables, receipts, gate passes, QR codes, confirmations and downloads (saved to Downloads/VTOP). New modules VTOP adds show up on their own. |
 | **Fee payments** | *Pay Now* opens VIT's payment gateway inside the app; UPI, Paytm and bank apps open as usual. This is the only web page in the app; VTOP itself is never shown as a web page. |
-| **System Status** | Checks whether VTOP's portal, login, captcha and student data are up, with 30-day uptime, response times, incidents, and optional notifications when something goes down. |
+| **System Status** | Checks whether VTOP's portal, login, captcha and student data are up, with 30-day uptime, response times, incidents, and optional notifications when something goes down. When you're offline or on a weak signal, it says so instead of reporting VTOP as down. |
 | **Session timer** | Shows the minutes left before VTOP's 20-minute idle sign-out, like the portal's header; tap it to restart the countdown. |
 | **Offline** | Pages you've opened are saved on your phone, so they open instantly and still show (marked "Offline") when VTOP can't be reached. |
 | **Reload** | Pull down on any page, or **double-tap its tab** in the bottom bar, to fetch it from VTOP again. Double-tapping **Menu** scrolls it back to the top. |
@@ -52,19 +52,19 @@ Any APK with a different certificate didn't come from this page.
 
 ## Privacy and security
 
-- **Your credentials go only to `vtop.vitbhopal.ac.in`.** The app talks only to VIT Bhopal's servers: VTOP, and VIT's payment gateway when you pay fees. There are no analytics, no ads and no third-party servers.
+- **Your credentials go only to `vtop.vitbhopal.ac.in`.** The app talks only to VIT Bhopal's servers: VTOP; VIT's payment gateway when you pay fees; and VIT Bhopal's main website (`vitbhopal.ac.in`, an empty request) when System Status needs to tell a weak connection from a VTOP outage. There are no analytics, no ads and no third-party servers.
 - Your **password is never saved**. Your VTOP session is kept in the app's encrypted storage, and saved pages stay in the app's private storage; both are deleted when you sign out.
 - Permissions: **Internet**, and **Notifications** (optional, only for System Status alerts).
 
 ## Versions
 
-Versions are numbered **Version.Revision** with a stage suffix: V0 to V7 were **alpha**; V8 onward are **beta** (for example V10.1-beta, shown in the app as "Version: V10.1-beta · Build: DDMMYYYY"; a revision such as .1 means small fixes and UI tweaks). Every change is listed in the [changelog](CHANGELOG.md).
+Versions are numbered **Version.Revision** with a stage suffix: V0 to V7 were **alpha**; V8 onward are **beta** (for example V10.2-beta, shown in the app as "Version: V10.2-beta · Build: DDMMYYYY"; a revision such as .2 means small fixes and UI tweaks). Every change is listed in the [changelog](CHANGELOG.md).
 
 ## Known limits
 
 - The captcha is typed by you; the app doesn't solve it.
 - Features that need a full browser engine (canvas charts, browser printing) aren't reproduced.
-- System Status measures VTOP from your own phone's connection.
+- System Status measures VTOP from your own phone; checks made with no or a poor connection are skipped rather than counted as outages.
 - The GPA on the Grades screen is an estimate from letter grades; your official CGPA is shown as VTOP publishes it.
 
 ## Disclaimer
