@@ -1,0 +1,29 @@
+VIT-B VTOP Native
+Copyright (c) 2026 Shanzal Firoz. All rights reserved. See LICENSE.
+
+This application includes the following third-party components, each used
+under its own licence. Their licences apply to those components only, not to
+the application as a whole.
+
+Libraries (Apache License 2.0, https://www.apache.org/licenses/LICENSE-2.0)
+  - Android Jetpack / AndroidX: Jetpack Compose (UI, Material 3, Material
+    Icons), Activity, Navigation, Lifecycle, Core, Core SplashScreen,
+    Security Crypto, WorkManager — Copyright The Android Open Source Project
+  - Kotlin standard library, kotlinx.coroutines, kotlinx.serialization
+    — Copyright JetBrains s.r.o. and Kotlin contributors
+  - OkHttp — Copyright Square, Inc.
+  - Haze — Copyright Chris Banes
+
+Libraries (MIT License, https://opensource.org/license/mit)
+  - jsoup — Copyright Jonathan Hedley
+
+Fonts (SIL Open Font License 1.1, https://openfontlicense.org)
+  - Cal Sans — Copyright The Cal Sans Project Authors
+  - Outfit — Copyright The Outfit Project Authors
+  - JetBrains Mono — Copyright The JetBrains Mono Project Authors
+  The full font licences are included inside the app (assets/licenses).
+
+Trademarks
+  "VTOP", "VIT", "VIT Bhopal" and the VIT seal and logo are the names and marks
+  of their respective owners. They are shown only to identify the portal this
+  unofficial app connects to; no affiliation or endorsement is implied.
