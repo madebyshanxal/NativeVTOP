@@ -9,6 +9,17 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stability**. The beta series has reached system stability; V11-release will be the first stable version.
 A version bump resets the revision to 0.
 
+## V11-release — 2026-11-01
+The first stable release: in-app updates, a Settings page, and a new dark mode.
+- **In-app updates.** Every time the app starts, it checks the app's GitHub releases for a newer version. If there is one, a popup shows what's new (features, fixes, changes) with **Download & install** and **View on GitHub**; it comes back on every launch until you update. The download is checked before anything is installed (its SHA-256 checksum, that it's VTOP Native, that it's newer, and that it's signed with the app's own release key), then Android's installer asks you to confirm. The first time, Android asks you to allow VTOP Native to install apps.
+- **"What's new" after an update.** The first time you open the app after updating, a popup shows that version's changes, once, with **Continue**. It's also available any time from Settings and Menu.
+- **Settings.** A new Settings page, in Menu (App › Settings) and on the sign-in page, where its button replaces the light/dark toggle: Theme (System, Light, Dark) and wallpaper colours, app updates (installed version, Check for updates, What's new, release pages), System Status and outage notifications, a Refresh button (signed in: the menu, dashboard and every page you've opened; signed out: System Status and updates), offline copies (how much space they use, and Clear), and About (version, privacy, licences). It has nothing to do with student or VTOP data.
+- **Updates & Feedback in Menu.** A new section with the installed version, Check for updates, What's new and the release pages. Theme and outage notifications moved from Menu to Settings; Menu's App card now has Settings, System status, Login history and Sign out.
+- **Dark mode's new look.** In dark mode, every screen and the sign-in page now sit on the same steel gradient ("basic steel": deep #313049 at the top lightening towards #515287, with soft #727392 and #9996b2 light), which the frosted bars show through. Light mode is unchanged.
+- Everything new adapts to the screen: Settings cards flow into columns on tablets, foldables and in landscape, and the update popups fit any width and height (their notes scroll, their buttons wrap).
+- **Privacy:** besides VIT Bhopal's servers, the app now contacts GitHub (`api.github.com`, and GitHub's download servers when you update) to check for and download updates. Nothing about you or your VTOP account is sent.
+- Version `11.0-release`, shown in the app as "Version: V11-release". From V10.2-beta, install this version manually once; later versions install from inside the app.
+
 ## V10.2-beta — 2026-10-29
 Revision: System Status bug fix.
 - **No more false "Degraded" or "Major outage" when your own connection drops.** Before, any check that couldn't reach VTOP (internet off, airplane mode, weak signal, switching networks) was recorded as VTOP being down, and a reply slowed by a weak signal was recorded as VTOP being slow. Now System Status only records VTOP's own condition:
