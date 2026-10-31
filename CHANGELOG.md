@@ -12,7 +12,6 @@ A version bump resets the revision to 0.
 ## V11.1-release — 2026-11-01
 Revision: updater and sign-in page tweaks.
 - **Back into the app after an in-app update.** Android closes an app to replace it. On Android 13 and older, VTOP Native now opens again by itself once the new version is installed. Android 14 and newer don't let apps open themselves from the background, so there a "VTOP Native updated · Tap to open" notification appears the moment the update finishes; one tap reopens the app (and the notification goes away once it's open). Either way, what's new is shown first.
-- The installer's confirmation now always appears on Android 14 and newer (it could be held back by Android's background-start rules).
 - **"Later" sits at the bottom right** of the update popup, after **View on GitHub** and **Download & install**.
 - **System Status left the sign-in page.** It's in Settings (the button at the top right of the sign-in page, and Menu › Settings), so the sign-in page ends with the app's own footer.
 - Release-signed APK: `VTOP-Native-V11.1-release.apk`, version `11.1-release`, shown in the app as "Version: V11.1-release".
