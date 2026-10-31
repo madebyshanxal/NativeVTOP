@@ -17,7 +17,7 @@ Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 > [!IMPORTANT]
 > **We don't collect any data, and none of the students' data is visible to us.** VTOP Native is only an Android-native VTOP client: it runs entirely on your phone and talks to VIT Bhopal's own servers (and to GitHub, only for app updates). Nothing is connected to us; there is no server, account, analytics or tracking of ours.
 
-**Latest version:** V11.1-release · **Status: Stable** · [Changelog](CHANGELOG.md)
+**Latest version:** V11.2-release · **Status: Stable** · [Changelog](CHANGELOG.md)
 
 > This repository hosts the app's releases (APKs), this README, the changelog, the [licence](LICENSE) and [third-party notices](NOTICE). The app is **closed source**; its source code is not published here.
 
@@ -27,22 +27,22 @@ Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/version-timeline-dark.svg">
-  <img src="assets/version-timeline-light.svg" alt="Version timeline: V0 to V7 alpha (27–28 Oct 2026), V8 to V10.2 beta (28–29 Oct 2026), V11 and V11.1 release (1 Nov 2026, V11.1 latest, stable)." width="100%">
+  <img src="assets/version-timeline-light.svg" alt="Version timeline: V0 to V7 alpha (27–28 Oct 2026), V8 to V10.2 beta (28–29 Oct 2026), V11 to V11.2 release (1 Nov 2026, V11.2 latest, stable)." width="100%">
 </picture>
 
 | Stage | Versions | What it meant |
 |---|---|---|
 | **Alpha** | V0 – V7 | Building the app: sign-in, native screens for every module, offline caching, System Status, the design system |
 | **Beta** | V8 – V10.2 | Polish and fixes on a complete app; release-signed APKs from V8 on; ended in system stability |
-| **Release** | V11 onward (latest: V11.1) | Stable versions, named `V<n>-release`, with in-app updates |
+| **Release** | V11 onward (latest: V11.2) | Stable versions, named `V<n>-release`, with in-app updates |
 
 ## Download and install
 
-1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V11.1-release.apk`).
+1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V11.2-release.apk`).
 2. Open the downloaded file. If Android asks, allow your browser or Files app to **install unknown apps**.
 3. Tap **Install**, then open **VTOP Native**.
 
-**Updating:** from V11 on, the app updates itself. Every time it starts, it checks this page for a newer version and shows what's new with **Download & install**; the download is checked (checksum, and that it's signed with the app's release key) and Android asks you to confirm. Afterwards the app reopens by itself on Android 13 and older; Android 14 and newer don't allow that, so a "VTOP Native updated · Tap to open" notification takes you straight back. The first time, Android asks you to allow VTOP Native to install apps. You can also check any time in Menu › Updates & Feedback or Settings. Updating keeps your settings; you sign in again only when VTOP has ended your session. Coming from V10.2-beta or older, install V11 once by hand (download it from the releases page).
+**Updating:** from V11 on, the app updates itself. Every time it starts, and in the background twice a day (with an "Update available" notification that opens the update), it checks this page for a newer version and shows what's new with **Download & install**; the download is checked (checksum, and that it's signed with the app's release key) and Android asks you to confirm. Afterwards the app reopens by itself on Android 13 and older; Android 14 and newer don't allow that, so a "VTOP Native updated · Tap to open" notification takes you straight back. The first time, Android asks you to allow VTOP Native to install apps. You can also check any time in Menu › Updates & Feedback or Settings. Updating keeps your settings; you sign in again only when VTOP has ended your session. Coming from V10.2-beta or older, install V11 once by hand (download it from the releases page).
 
 **Coming from an alpha, or a beta downloaded before 29 Oct 2026?** Those builds were signed with a temporary test key, and Android only updates an app with an APK signed by the same key. Uninstall the old app first, then install the new one (this clears its saved data; just sign in again).
 
@@ -69,7 +69,7 @@ Any APK with a different certificate didn't come from this page.
 | **Session timer** | Shows the minutes left before VTOP's 20-minute idle sign-out, like the portal's header; tap it to restart the countdown. |
 | **Offline** | Pages you've opened are saved on your phone, so they open instantly and still show (marked "Offline") when VTOP can't be reached. |
 | **Settings** | Theme (system, light, dark), wallpaper colours, app updates, System Status and outage alerts, a refresh button, offline copies and About. In Menu, and on the sign-in page. |
-| **Updates** | Checks for a new version every time the app starts and shows what's new; downloads, checks and installs it in-app. "What's new" shows once after each update. |
+| **Updates** | Checks for a new version every time the app starts (and in the background, with a notification) and shows what's new; downloads, checks and installs it in-app. "What's new" shows once after each update. |
 | **Reload** | Pull down on any page, or **double-tap its tab** in the bottom bar, to fetch it from VTOP again. Double-tapping **Menu** scrolls it back to the top. |
 | **Look and feel** | Material 3 Expressive design with VTOP's navy colours, light mode and a dark mode on a steel gradient (or follow the system), optional wallpaper colours, frosted glass bars, and smooth animations. Works in portrait and landscape, on phones, foldables and tablets. Back always returns to the previous screen. |
 

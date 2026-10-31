@@ -9,6 +9,12 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stability**. The beta series has reached system stability; V11-release will be the first stable version.
 A version bump resets the revision to 0.
 
+## V11.2-release — 2026-11-01
+Revision: update notifications.
+- **"Update available" notification.** The app also checks for a new version in the background (every 12 hours, when there's a connection), so you hear about an update even if you don't open the app. Each new version gets one notification, "Update available: V… · Tap to see what's new and install it"; tapping it opens the app straight to the update popup. Opening the app still checks every time and shows the popup itself.
+- **"Later" sits at the bottom left** of the update popup, apart from **View on GitHub** and **Download & install** on the right.
+- Release-signed APK: `VTOP-Native-V11.2-release.apk`, version `11.2-release`, shown in the app as "Version: V11.2-release".
+
 ## V11.1-release — 2026-11-01
 Revision: updater and sign-in page tweaks.
 - **Back into the app after an in-app update.** Android closes an app to replace it. On Android 13 and older, VTOP Native now opens again by itself once the new version is installed. Android 14 and newer don't let apps open themselves from the background, so there a "VTOP Native updated · Tap to open" notification appears the moment the update finishes; one tap reopens the app (and the notification goes away once it's open). Either way, what's new is shown first.
