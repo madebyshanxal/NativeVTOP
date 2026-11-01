@@ -9,6 +9,11 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V13.2-release — 2026-11-02
+Revision: summary tiles in a row are the same height.
+- **Summary tiles side by side are always the same height.** With a large system font size, a tile whose label wraps to two lines (such as **Classes attended** on Attendance) used to be taller than the tiles next to it, leaving a ragged bottom edge. Now every tile in a row grows to the height of the tallest one, with its number at the top and its label at the bottom, on every screen with these tiles (Home, Attendance, Time Table, Grades, Grade History, Curriculum). At normal font sizes they look as before.
+- Release-signed APK: `VTOP-Native-V13.2-release.apk`, version `13.2-release`, shown in the app as "Version: V13.2-release".
+
 ## V13.1-release — 2026-11-02
 Revision: summary numbers that fit at large font sizes.
 - **Numbers in the summary tiles no longer get cut off.** With a large system font size, a long value such as "175/180" in Attendance's **Classes attended** tile was cut short ("175/1…"). Now the number shrinks just enough to fit its tile, on every screen with these tiles (Home, Attendance, Time Table, Grades, Grade History, Curriculum); at normal font sizes everything looks as before.
