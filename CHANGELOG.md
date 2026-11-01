@@ -9,6 +9,12 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V12.4-release — 2026-11-01
+Revision: instant Forgot Password and Forgot LoginId, and a new Settings order.
+- **Forgot Password and Forgot LoginId open instantly.** VTOP's first step (its title, the username or registration-number field, the captcha box, Submit and Back to login) is on screen the moment you tap, as fast as Login Issue, instead of an empty box waiting for VTOP. Only the captcha picture and Submit show a spinner until VTOP answers (usually a fraction of a second); you can start typing straight away, and what you type stays when VTOP's form takes its place. The page rises in like the sign-in form, and each new step VTOP sends (such as the OTP step) slides in the way the sign-in page's own OTP step does; a reply on the same step (like "Invalid Captcha") just updates the card in place.
+- **Settings in a new order:** Refresh, Appearance, App updates, System status, Feedback & bug reports, Crash reports, then (when signed in) Offline copies, and VTOP Native. The same everywhere Settings opens: Menu and the sign-in page.
+- Release-signed APK: `VTOP-Native-V12.4-release.apk`, version `12.4-release`, shown in the app as "Version: V12.4-release".
+
 ## V12.3-release — 2026-11-01
 Revision: snappier animations, tap a tab to go back to the top, and sign-in help polish.
 - **Tap the tab you're on to go back to the top.** Tapping the tab that's already showing in the bottom bar (or side rail), whether Home, Time Table, Attendance, Marks or Menu, now scrolls that page smoothly back to the top. Menu works like the others: one tap instead of a double-tap. A quick double-tap on Home, Time Table, Attendance or Marks still reloads that page from VTOP.
