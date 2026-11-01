@@ -9,6 +9,15 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V12.3-release — 2026-11-01
+Revision: snappier animations, tap a tab to go back to the top, and sign-in help polish.
+- **Tap the tab you're on to go back to the top.** Tapping the tab that's already showing in the bottom bar (or side rail), whether Home, Time Table, Attendance, Marks or Menu, now scrolls that page smoothly back to the top. Menu works like the others: one tap instead of a double-tap. A quick double-tap on Home, Time Table, Attendance or Marks still reloads that page from VTOP.
+- **Snappy, smooth expand and collapse everywhere.** Opening and closing sections (the profile's groups, "All details", curriculum courses, Menu's module groups and messages on the sign-in page) now use one quick, bounce-free motion: the box and its content move together, so the content no longer vanishes while the box is still slowly closing. Cards also resize quickly instead of trailing behind their content.
+- **Sign-in help, smoother and consistent with the rest of the app.** Forgot Password and Forgot LoginId no longer fade the whole box on every step or push it down with a progress bar: the card stays put and resizes quickly as VTOP's next step arrives, VTOP's progress shows as a wavy strip under the top bar (as on every module page), and the button you tapped shows the spinner. On tablets, foldables and in landscape, all three help pages keep a readable width, centred like the sign-in form.
+- **"-- Select Category --" in Login Issue.** The category list starts with VTOP's own "-- Select Category --" entry, so a chosen category can be cleared again without leaving the page.
+- **Forgot LoginId asks for your Registration Number.** Its field reads "Enter your Registration Number" (VTOP's page also mentions employee IDs, but the app is for students). Only the wording changed; the same field goes to VTOP.
+- Release-signed APK: `VTOP-Native-V12.3-release.apk`, version `12.3-release`, shown in the app as "Version: V12.3-release".
+
 ## V12.2-release — 2026-11-01
 Revision: VTOP's sign-in help, natively, and Reload / Desktop site for in-app web pages.
 - **Forgot Password, Forgot LoginId and Login Issue.** The three links under VTOP's own sign-in form are now under the app's **Sign in** button too, as native pages that work with the official VTOP backend:
