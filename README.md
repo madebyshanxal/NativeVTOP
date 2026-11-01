@@ -17,7 +17,7 @@ Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 > [!IMPORTANT]
 > **We don't collect any user or VTOP data, and none of the students' data is visible to us.** VTOP Native is only an Android-native VTOP client: it runs on your phone and talks to VIT Bhopal's own servers (and to GitHub, for app updates). The only things that ever reach us are what you choose to send: feedback and bug reports you write, and app crash reports if you turn them on (app errors only, never VTOP data or cookies). There's no account, analytics or tracking.
 
-**Latest version:** V11.3-release · **Status: Stable** · [Changelog](CHANGELOG.md)
+**Latest version:** V12-release · **Status: Stable** · [Changelog](CHANGELOG.md)
 
 > This repository hosts the app's releases (APKs), this README, the changelog, the [licence](LICENSE) and [third-party notices](NOTICE). The app is **closed source**; its source code is not published here.
 
@@ -27,18 +27,18 @@ Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/version-timeline-dark.svg">
-  <img src="assets/version-timeline-light.svg" alt="Version timeline: V0 to V7 alpha (27–28 Oct 2026), V8 to V10.2 beta (28–29 Oct 2026), V11 to V11.3 release (1 Nov 2026, V11.3 latest, stable)." width="100%">
+  <img src="assets/version-timeline-light.svg" alt="Version timeline: V0 to V7 alpha (27–28 Oct 2026), V8 to V10.2 beta (28–29 Oct 2026), V11 to V12 release (1 Nov 2026, V12 latest, stable)." width="100%">
 </picture>
 
 | Stage | Versions | What it meant |
 |---|---|---|
 | **Alpha** | V0 – V7 | Building the app: sign-in, native screens for every module, offline caching, System Status, the design system |
 | **Beta** | V8 – V10.2 | Polish and fixes on a complete app; release-signed APKs from V8 on; ended in system stability |
-| **Release** | V11 onward (latest: V11.3) | Stable versions, named `V<n>-release`, with in-app updates |
+| **Release** | V11 onward (latest: V12) | Stable versions, named `V<n>-release`, with in-app updates |
 
 ## Download and install
 
-1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V11.3-release.apk`).
+1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V12-release.apk`).
 2. Open the downloaded file. If Android asks, allow your browser or Files app to **install unknown apps**.
 3. Tap **Install**, then open **VTOP Native**.
 
@@ -69,19 +69,21 @@ Any APK with a different certificate didn't come from this page.
 | **Session timer** | Shows the minutes left before VTOP's 20-minute idle sign-out, like the portal's header; tap it to restart the countdown. |
 | **Offline** | Pages you've opened are saved on your phone, so they open instantly and still show (marked "Offline") when VTOP can't be reached. |
 | **Settings** | Theme (system, light, dark), wallpaper colours, app updates, System Status and outage alerts, a refresh button, offline copies, opt-in crash reports, feedback and About. In Menu, and on the sign-in page. |
-| **Feedback & bug reports** | Send feedback (with a star rating), report a bug (with an optional screenshot) or request a feature, on VTOP Native's own page inside the app, in the app's look. App version, Android version and device model are filled in, and you can leave them out. In Menu › Updates & Feedback and in Settings. |
-| **Crash reports** | Off unless you turn them on in Settings. No user/VTOP data or cookies are collected; only app crash/bug/error data (app version, Android version, device model and where in the app's code it crashed), for fixing bugs. |
+| **Feedback & bug reports** | Send feedback (with a star rating), report a bug (with an optional screenshot) or request a feature, on a native page built into the app (no web page inside it). App version, Android version and device model are filled in, and you can leave them out. In Menu › Updates & Feedback and in Settings. |
+| **Crash reports** | Off unless you turn them on in Settings. No user/VTOP data or cookies are collected; only app crash/bug/error data (app version, Android version, device model and where in the app's code it crashed), for fixing bugs. Opting in really helps: see the note below. |
 | **Updates** | Checks for a new version every time the app starts (and in the background, with a notification) and shows what's new; downloads, checks and installs it in-app. "What's new" shows once after each update. |
 | **Reload** | Pull down on any page, or **double-tap its tab** in the bottom bar, to fetch it from VTOP again. Double-tapping **Menu** scrolls it back to the top. |
-| **Look and feel** | Material 3 Expressive design with VTOP's navy colours, light mode and a dark mode on a steel gradient (or follow the system), optional wallpaper colours, frosted glass bars, and smooth animations. Works in portrait and landscape, on phones, foldables and tablets. Back always returns to the previous screen. |
+| **Look and feel** | Material 3 Expressive design with VTOP's navy colours, light mode and a dark mode in deep steel shades on a minimal gradient (or follow the system), optional wallpaper colours, frosted glass bars, and smooth animations. Works in portrait and landscape, on phones, foldables and tablets. Back always returns to the previous screen. |
 
 ## Privacy and security
 
 **We don't collect any user or VTOP data, and none of the students' data is visible to us.** This is only an Android-native VTOP client: everything you see comes straight from VTOP to your phone and stays on your phone. Nothing reaches us unless you send it.
 
 - **Your credentials go only to `vtop.vitbhopal.ac.in`.** The app talks to VIT Bhopal's servers: VTOP; VIT's payment gateway when you pay fees; and VIT Bhopal's main website (`vitbhopal.ac.in`, an empty request) when System Status needs to tell a weak connection from a VTOP outage. It also contacts **GitHub** (this page) to check for and download app updates, and VTOP Native's own **feedback portal** (`vtop-native-feedback.pages.dev`, on Cloudflare) only when you send feedback, or crash reports if you turned them on. Nothing about you or your VTOP account is ever sent.
-- **Feedback and bug reports** contain only what you type, an optional screenshot you pick, an optional email (if you'd like a reply), and the app version, Android version and device model (which you can leave out). Cloudflare Turnstile checks for bots; your IP address isn't stored.
+- **Feedback and bug reports** contain only what you type, an optional screenshot you pick, an optional email (if you'd like a reply), and the app version, Android version and device model (which you can leave out). Spam is kept out natively (the app proves it's the real app and does a moment of work on the phone for each report) and by an hourly limit; your IP address isn't stored.
 - **Crash reports** are off unless you turn them on in Settings. A report holds the app version, Android version, device model and where in the app's own code it crashed; error messages, VTOP data and cookies are never included. Turning them off deletes any that haven't been sent.
+
+> **A note from the developer:** Heyy, Shanzal here, developer of this app. I am requesting you as a developer to please Opt-In for Crash Reports as it helps me to find out and fix all the unexpected bugs, errors, and crashes much more quicker so you can get a much more smooth, lag-free, & intuitive experience while using the app. I don't collect any user or VTOP data or cookies, only the app-related data. Thanx for reading by, hope you understand :)
 - Your **password is never saved**. Your VTOP session is kept in the app's encrypted storage, and saved pages stay in the app's private storage; both are deleted when you sign out.
 - Permissions: **Internet**, and **Notifications** (optional, only for System Status alerts).
 

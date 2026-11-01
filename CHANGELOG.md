@@ -6,8 +6,17 @@
 # Changelog
 
 Versioning is **Version.Revision**. Each release lives in its own folder, named with its stage: V0 to V7 are **alpha** (`V0-alpha` … `V7-alpha`), V8 to V10.2 **beta** (`V8-beta` … `V10.2-beta`), and from V11 every version is a stable **release** (`V11-release`, …); each folder's APK carries the same suffix (e.g. `build-output/VTOP-Native-V10.2-beta.apk`).
-Current status: **Stability**. The beta series has reached system stability; V11-release will be the first stable version.
+Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
+
+## V12-release — 2026-11-01
+The native feedback page, a darker dark mode, and a note about crash reports.
+- **Feedback & bug reports are fully native.** The **Feedback, bugs & feature requests** page (Menu › Updates & Feedback, and Settings) is now built into the app itself instead of opening a web page inside it, so it opens instantly, uses less memory and works like every other screen. Choose **Send feedback** (with an optional star rating), **Report a bug** (what happened, steps, what you expected, an optional screenshot that's shrunk on the phone before sending) or **Request a feature**; the app version, Android version and device model are filled in for you and can be left out, and an email address is only needed if you'd like a reply. After sending, a thank-you screen offers **Done** or **Send something else**.
+- **Send works.** Tapping **Send** on the old web form could do nothing at all. The new page shows a progress indicator while sending, then either the thank-you screen or a clear message saying what went wrong (no connection, a missing summary, too many reports in an hour) so you can try again.
+- **No web anti-spam check.** Cloudflare's Turnstile widget is gone. Reports are protected natively instead: the app proves it's the real app, does a fraction of a second of work on the phone for each report (cheap for one report, costly for spam in bulk), and the portal limits how many reports can be sent in an hour.
+- **A darker dark mode.** Dark mode now uses deeper shades of the "basic steel" palette (#b8bddf, #9996b2, #727392, #515287, #313049) on a near-black, barely-there gradient, the same on every screen: the sign-in page, every page after signing in, Settings, the feedback page, popups and the launch screen. Cards sit slightly lighter than the background so they stand out. Light mode is unchanged.
+- **A note from the developer in Crash reports.** Settings › Crash reports now carries a short message from Shanzal, the app's developer, asking you to opt in to crash reports, which help find and fix unexpected bugs, errors and crashes much faster. The switch stays off unless you turn it on, and no user or VTOP data or cookies are ever collected, only app-related data.
+- Release-signed APK: `VTOP-Native-V12-release.apk`, version `12.0-release`, shown in the app as "Version: V12-release". Older versions' web feedback form is retired; update to V12 to send feedback.
 
 ## V11.3-release — 2026-11-01
 Revision: feedback, bug reports and opt-in crash reports.
