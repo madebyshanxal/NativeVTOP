@@ -9,6 +9,11 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V13.1-release — 2026-11-02
+Revision: summary numbers that fit at large font sizes.
+- **Numbers in the summary tiles no longer get cut off.** With a large system font size, a long value such as "175/180" in Attendance's **Classes attended** tile was cut short ("175/1…"). Now the number shrinks just enough to fit its tile, on every screen with these tiles (Home, Attendance, Time Table, Grades, Grade History, Curriculum); at normal font sizes everything looks as before.
+- Release-signed APK: `VTOP-Native-V13.1-release.apk`, version `13.1-release`, shown in the app as "Version: V13.1-release".
+
 ## V13-release — 2026-11-01
 Sturdier updates, feedback that waits for a connection, a safer session, and up-to-date foundations.
 - **Feedback is kept when there's no connection.** If a report can't be sent because you're offline, it's saved on the phone ("Saved · It'll be sent automatically when you're back online") and sent by itself once there's a connection, even if the app is closed. Up to 5 reports can wait; they're listed under **Waiting to send** on the Feedback page, each with a Delete button.
