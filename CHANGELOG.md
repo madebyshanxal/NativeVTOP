@@ -9,6 +9,12 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V12.6-release — 2026-11-01
+Revision: details that open in one piece, and a Day-wise sheet that never closes on a swipe up.
+- **"All details" opens and closes in one smooth piece.** Before, the card's edge followed its opening details with a second, slower animation, and the cards below trailed behind too, so the Hide details / Day-wise buttons ran ahead and briefly slid over the next card. Now the details, the card's edge, its buttons and the cards below all move together. The same applies everywhere something opens inside a card (profile sections, Course details on Marks, curriculum courses, Menu groups) and to the sign-in page's messages.
+- **A quick swipe up on Day-wise opens it fully, every time.** A fast swipe up, especially right after tapping Day-wise while the sheet was still sliding in, could send the sheet back down and close it. Now any swipe up on the sheet, however quick, ends with the whole list showing (then it scrolls); swiping down still goes back to half and then closes it, and tapping outside it or Back still closes it.
+- Release-signed APK: `VTOP-Native-V12.6-release.apk`, version `12.6-release`, shown in the app as "Version: V12.6-release".
+
 ## V12.5-release — 2026-11-01
 Revision: tidier attendance and marks cards, and a dependable Day-wise sheet.
 - **More room above "All details" and "Course details".** The details toggles on Attendance, Marks (Course details) and every other card with one sit a little apart from the chips or marks above them, instead of right underneath.
