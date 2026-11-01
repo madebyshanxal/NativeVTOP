@@ -9,6 +9,25 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V13-release — 2026-11-01
+Sturdier updates, feedback that waits for a connection, a safer session, and up-to-date foundations.
+- **Feedback is kept when there's no connection.** If a report can't be sent because you're offline, it's saved on the phone ("Saved · It'll be sent automatically when you're back online") and sent by itself once there's a connection, even if the app is closed. Up to 5 reports can wait; they're listed under **Waiting to send** on the Feedback page, each with a Delete button.
+- **Feedback works when the phone's clock is wrong.** A report from a phone whose clock was more than 15 minutes off used to fail with "That couldn't be checked". Now the app sends it again at once using the feedback portal's own time, so it goes through.
+- **Update checks no longer fail on busy campus Wi-Fi.** GitHub allows only 60 update checks an hour from one internet address, which a whole hostel can share. The app now asks VTOP Native's own portal, which keeps a copy of the latest release for a few minutes, and asks GitHub directly only if the portal can't be reached. Downloads still come from GitHub, with the same checks as before.
+- **Offline copies are capped at 1 GB** by default. In Settings › Offline copies, type your own limit in **Maximum size (MB)** and press Done; when it's full, the oldest saved pages are removed first.
+- **Signing out also clears in-app web pages.** Cookies and site storage from the payment gateway and VIT Bhopal's other sites opened inside the app are now deleted along with your VTOP session.
+- **Your session is never stored unencrypted.** If the phone's encrypted storage can't be opened, the app resets it once and tries again; if it still can't, your session is kept only in memory (you sign in again after closing the app) instead of being written down unencrypted. Session copies left in unencrypted storage by earlier versions are deleted.
+- **System Status checks in the background every 30 minutes** (was 15), easier on the battery and on VTOP.
+- **TalkBack:** the Login Issue category is announced as a drop-down list with its current choice; a checkbox field and its label read as one checkbox; Spot-light links on Home and the modules in Menu are announced as buttons ("double-tap to open").
+- **Large font sizes:** small buttons (such as Day-wise and All details) now grow with the system font size instead of cutting off their labels.
+- **Cards slide to their new places when you rotate or resize the window** (only then; when a card opens or closes, the cards below still follow it exactly).
+- **Day-wise:** swiping down right after swiping up now closes the sheet as expected.
+- **Marks:** more room between the progress bar and the first assessment.
+- Layouts follow the app's own window (split screen, free-form windows, foldables) instead of the whole screen's size.
+- Updated libraries: Compose BOM 2026.06.01, Material 3 1.5.0-alpha18, Activity 1.13, Navigation 2.9.8, Lifecycle 2.10, Core 1.18, Splash screen 1.2, WorkManager 2.12, OkHttp 5.4, kotlinx.serialization 1.11, coroutines 1.11, Haze 1.7.2; Gradle 8.14.6.
+- Tidier resources: two unused ones removed and the launcher-icon folders merged.
+- Release-signed APK: `VTOP-Native-V13-release.apk`, version `13.0-release`, shown in the app as "Version: V13-release".
+
 ## V12.6-release — 2026-11-01
 Revision: details that open in one piece, and a Day-wise sheet that never closes on a swipe up.
 - **"All details" opens and closes in one smooth piece.** Before, the card's edge followed its opening details with a second, slower animation, and the cards below trailed behind too, so the Hide details / Day-wise buttons ran ahead and briefly slid over the next card. Now the details, the card's edge, its buttons and the cards below all move together. The same applies everywhere something opens inside a card (profile sections, Course details on Marks, curriculum courses, Menu groups) and to the sign-in page's messages.
