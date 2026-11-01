@@ -9,6 +9,13 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V12.5-release — 2026-11-01
+Revision: tidier attendance and marks cards, and a dependable Day-wise sheet.
+- **More room above "All details" and "Course details".** The details toggles on Attendance, Marks (Course details) and every other card with one sit a little apart from the chips or marks above them, instead of right underneath.
+- **Day-wise stays at the bottom right.** On each attendance card, "All details" and "Day-wise" now share one row at the bottom of the card, at the same height. Opening the details unfolds them above that row, so Day-wise no longer jumps to the middle of the card.
+- **The Day-wise sheet behaves the same way every time.** It always opens half-way (before, it could open half-way, fully or shut itself, depending on how fast VTOP answered). Swipe up anywhere on it to see the whole list, then scroll it; swipe down to go back to half, and down again to close. Tapping above the sheet, or Back, closes it too.
+- Release-signed APK: `VTOP-Native-V12.5-release.apk`, version `12.5-release`, shown in the app as "Version: V12.5-release".
+
 ## V12.4-release — 2026-11-01
 Revision: instant Forgot Password and Forgot LoginId, and a new Settings order.
 - **Forgot Password and Forgot LoginId open instantly.** VTOP's first step (its title, the username or registration-number field, the captcha box, Submit and Back to login) is on screen the moment you tap, as fast as Login Issue, instead of an empty box waiting for VTOP. Only the captcha picture and Submit show a spinner until VTOP answers (usually a fraction of a second); you can start typing straight away, and what you type stays when VTOP's form takes its place. The page rises in like the sign-in form, and each new step VTOP sends (such as the OTP step) slides in the way the sign-in page's own OTP step does; a reply on the same step (like "Invalid Captcha") just updates the card in place.
