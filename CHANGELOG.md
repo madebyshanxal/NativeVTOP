@@ -9,6 +9,13 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stability**. The beta series has reached system stability; V11-release will be the first stable version.
 A version bump resets the revision to 0.
 
+## V11.3-release — 2026-11-01
+Revision: feedback, bug reports and opt-in crash reports.
+- **Feedback & bug reports.** Menu › Updates & Feedback has a new **Feedback, bugs & feature requests** page: choose **Send feedback** (with an optional star rating), **Report a bug** (what happened, steps, what you expected, an optional screenshot) or **Request a feature**. It's VTOP Native's own web portal, opened inside the app in the app's look (the same fonts, colours, light and dark themes and motion). The app version, Android version and device model are filled in for you, and you can leave them out; an email address is only needed if you'd like a reply. Cloudflare's anti-spam check keeps bots out. Nothing from VTOP is ever sent.
+- **Crash reports, only if you turn them on.** Settings has a new **Crash reports** switch, off by default. No user/VTOP data or cookies are collected; only app crash/bug/error data is collected, for automated fixes of future bugs and errors: the app version, Android version, device model and where in the app's own code it crashed (never error messages, which could quote a page). A report waits on the phone and is sent the next time you open the app; turning the switch off deletes any that haven't been sent.
+- **Privacy:** besides VIT Bhopal's servers and GitHub (for updates), the app now talks to its own feedback portal, only when you send something or (with the switch on) a crash report.
+- Release-signed APK: `VTOP-Native-V11.3-release.apk`, version `11.3-release`, shown in the app as "Version: V11.3-release".
+
 ## V11.2-release — 2026-11-01
 Revision: update notifications.
 - **"Update available" notification.** The app also checks for a new version in the background (every 12 hours, when there's a connection), so you hear about an update even if you don't open the app. Each new version gets one notification, "Update available: V… · Tap to see what's new and install it"; tapping it opens the app straight to the update popup. Opening the app still checks every time and shows the popup itself.
