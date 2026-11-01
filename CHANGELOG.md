@@ -9,6 +9,16 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V12.2-release — 2026-11-01
+Revision: VTOP's sign-in help, natively, and Reload / Desktop site for in-app web pages.
+- **Forgot Password, Forgot LoginId and Login Issue.** The three links under VTOP's own sign-in form are now under the app's **Sign in** button too, as native pages that work with the official VTOP backend:
+  - **Forgot Password:** your VTOP username and VTOP's captcha (the sum to calculate), then each next step exactly as VTOP sends it (the OTP to verify or resend, then your new password), until VTOP confirms the change.
+  - **Forgot LoginId:** your employee ID or register number and the captcha, then VTOP's OTP step, until VTOP shows your login ID.
+  - **Login Issue:** VTOP's ticket form with the same fields and rules: VTOP User ID, official email address (name@vitbhopal.ac.in only), category (Login, Password, OTP, Captcha, Account or Other issue), a description of up to 5,000 characters, and a screenshot (JPG, JPEG or PNG, up to 5 MB; other picture formats are converted for you). After sending, the page shows VTOP's ticket number; support replies by email.
+  - Every page has **Back to login** (and Back) to return to the sign-in page, which then shows a fresh captcha. VTOP's "Go to Home Page" link isn't there, as it only leads to VTOP's own home page. If VTOP's sign-in session runs out midway, the page starts again by itself and says so.
+- **Reload and Desktop site on every in-app web page.** Pages from other sites that open inside the app (the fee payment gateway, Spot-light links) have a **Reload** button and a ⋮ menu with **Desktop site**, like a browser. Desktop site lays pages out at a desktop width, zoomed out to fit, and is one setting for all of them, remembered. On a site's start page, Reload (and switching Desktop site) opens it afresh, because VIT's web apps (like the TEE feedback forms) show a "Multiple Tabs" page when their start page is loaded twice in one session. A page that was opened by sending a form (such as the payment gateway) asks before reloading, because reloading would send the form again.
+- Release-signed APK: `VTOP-Native-V12.2-release.apk`, version `12.2-release`, shown in the app as "Version: V12.2-release".
+
 ## V12.1-release — 2026-11-01
 Revision: reopening after updates, smoother theme changes, Spot-light pages and a sturdier Refresh.
 - **The app reopens by itself after an in-app update, on every Android version.** Android 14 and newer don't let apps open themselves from the background, so there it needs one permission: **Display over other apps**. Turn on **Reopen after updating** in Settings › App updates (or tap **Allow** in the update popup) and the app comes straight back on the new version after Android installs it. Without it, the "VTOP Native updated · Tap to open" notification brings you back as before. Android 13 and older need nothing.

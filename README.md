@@ -17,7 +17,7 @@ Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 > [!IMPORTANT]
 > **We don't collect any user or VTOP data, and none of the students' data is visible to us.** VTOP Native is only an Android-native VTOP client: it runs on your phone and talks to VIT Bhopal's own servers (and to GitHub, for app updates). The only things that ever reach us are what you choose to send: feedback and bug reports you write, and app crash reports if you turn them on (app errors only, never VTOP data or cookies). There's no account, analytics or tracking.
 
-**Latest version:** V12.1-release · **Status: Stable** · [Changelog](CHANGELOG.md)
+**Latest version:** V12.2-release · **Status: Stable** · [Changelog](CHANGELOG.md)
 
 > This repository hosts the app's releases (APKs), this README, the changelog, the [licence](LICENSE) and [third-party notices](NOTICE). The app is **closed source**; its source code is not published here.
 
@@ -27,18 +27,18 @@ Not affiliated with VIT. Your credentials go only to `vtop.vitbhopal.ac.in`.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/version-timeline-dark.svg">
-  <img src="assets/version-timeline-light.svg" alt="Version timeline: V0 to V7 alpha (27–28 Oct 2026), V8 to V10.2 beta (28–29 Oct 2026), V11 to V12.1 release (1 Nov 2026, V12.1 latest, stable)." width="100%">
+  <img src="assets/version-timeline-light.svg" alt="Version timeline: V0 to V7 alpha (27–28 Oct 2026), V8 to V10.2 beta (28–29 Oct 2026), V11 to V12.2 release (1 Nov 2026, V12.2 latest, stable)." width="100%">
 </picture>
 
 | Stage | Versions | What it meant |
 |---|---|---|
 | **Alpha** | V0 – V7 | Building the app: sign-in, native screens for every module, offline caching, System Status, the design system |
 | **Beta** | V8 – V10.2 | Polish and fixes on a complete app; release-signed APKs from V8 on; ended in system stability |
-| **Release** | V11 onward (latest: V12.1) | Stable versions, named `V<n>-release`, with in-app updates |
+| **Release** | V11 onward (latest: V12.2) | Stable versions, named `V<n>-release`, with in-app updates |
 
 ## Download and install
 
-1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V12.1-release.apk`).
+1. Open the [latest release](https://github.com/madebyshanxal/NativeVTOP/releases/latest) on your phone and download `VTOP-Native-V<version>.apk` (for example `VTOP-Native-V12.2-release.apk`).
 2. Open the downloaded file. If Android asks, allow your browser or Files app to **install unknown apps**.
 3. Tap **Install**, then open **VTOP Native**.
 
@@ -56,7 +56,7 @@ Any APK with a different certificate didn't come from this page.
 
 | Feature | What you get |
 |---|---|
-| **Sign-in** | The same as the website: registration number, password and VTOP's own captcha, plus the OTP step when VTOP asks for one. Nothing is remembered; the fields are always empty when you open the app or sign out. |
+| **Sign-in** | The same as the website: registration number, password and VTOP's own captcha, plus the OTP step when VTOP asks for one. Nothing is remembered; the fields are always empty when you open the app or sign out. VTOP's **Forgot Password**, **Forgot LoginId** and **Login Issue** are under the Sign in button as native pages, with the same steps, fields and messages as on the website and **Back to login** on each. |
 | **Home** | Your photo, name, register number and programme; VTOP's system status; the portal's own dashboard widgets (course registration, CGPA and credits, proctor message, Spot-light notices, whose links to VIT Bhopal's other sites, like the end-semester feedback forms, open inside the app); then Attendance, Time Table, Marks, Grades, Exam Schedule and Curriculum at a glance. |
 | **Attendance** | Per semester: overall %, a ring per course, how many classes you can skip or must attend to stay at 75 %, debar status, and a day-wise sheet (present, absent, on duty). |
 | **Time Table** | Today's classes with the one in progress highlighted, the full week grid exactly like VTOP's (every period including lunch, every slot named, your classes highlighted, today marked), and your registered courses with credits, faculty and status. |
@@ -64,7 +64,7 @@ Any APK with a different certificate didn't come from this page.
 | **Exams and curriculum** | Exam schedule with the nearest exam first and a countdown, venue and seat; curriculum credits per category, earned against required, and the curriculum PDF. |
 | **Profile** | Your full VTOP profile with photo; on wide screens and in landscape the sections sit side by side. |
 | **Every other module** | Every module in VTOP's menu opens natively: forms, file uploads, tables, receipts, gate passes, QR codes, confirmations and downloads (saved to Downloads/VTOP). New modules VTOP adds show up on their own. |
-| **Fee payments** | *Pay Now* opens VIT's payment gateway inside the app; UPI, Paytm and bank apps open as usual. This is the only web page in the app; VTOP itself is never shown as a web page. |
+| **Fee payments** | *Pay Now* opens VIT's payment gateway inside the app; UPI, Paytm and bank apps open as usual. Only pages from other sites (this gateway, and VIT Bhopal sites linked from Spot-light) ever open as web pages, each with **Reload** and a **Desktop site** switch; VTOP itself is never shown as a web page. |
 | **System Status** | Checks whether VTOP's portal, login, captcha and student data are up, with 30-day uptime, response times, incidents, and optional notifications when something goes down. When you're offline or on a weak signal, it says so instead of reporting VTOP as down. |
 | **Session timer** | Shows the minutes left before VTOP's 20-minute idle sign-out, like the portal's header; tap it to restart the countdown. |
 | **Offline** | Pages you've opened are saved on your phone, so they open instantly and still show (marked "Offline") when VTOP can't be reached. |
