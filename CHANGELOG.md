@@ -9,6 +9,14 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V13.3-release — 2026-11-03
+Revision: Academics Calendar as a real month calendar.
+- **Academics Calendar is now a month calendar, like a calendar app's month view.** Instead of a list of days (or a wide table), the month shows as a grid of weeks, Sunday to Saturday, with today's date circled. Each day shows its entries as small coloured bars: holidays in red, CAT and other tests in amber, class days in blue, days without classes in grey.
+- **Tap a day to see its events.** A pop-up shows the full date and everything VTOP lists for that day, such as "Holiday · Independence Day - Holiday".
+- **The month buttons are one row you swipe sideways**, instead of one button per line. The month on show is highlighted and kept in view.
+- The list/table switch is gone from the calendar; it always shows as the month grid.
+- Release-signed APK: `VTOP-Native-V13.3-release.apk`, version `13.3-release`, shown in the app as "Version: V13.3-release".
+
 ## V13.2-release — 2026-11-02
 Revision: summary tiles in a row are the same height.
 - **Summary tiles side by side are always the same height.** With a large system font size, a tile whose label wraps to two lines (such as **Classes attended** on Attendance) used to be taller than the tiles next to it, leaving a ragged bottom edge. Now every tile in a row grows to the height of the tallest one, with its number at the top and its label at the bottom, on every screen with these tiles (Home, Attendance, Time Table, Grades, Grade History, Curriculum). At normal font sizes they look as before.
