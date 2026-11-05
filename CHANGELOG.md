@@ -9,6 +9,20 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V14-release — 2026-11-05
+Every VTOP page now looks the way VTOP shows it: tables stay tables, lists stay lists.
+- **Tables are always tables, as on VTOP.** The list/table switch is gone everywhere. A table VTOP shows as a table is a table in the app, even when it's empty (its column headings stay, as on VTOP, instead of turning into a bulleted list), and rows with buttons or dropdowns stay rows of the table. Lists VTOP shows as lists stay lists.
+- **VTOP's table controls are back.** Where VTOP adds them (FDP Registration, Participant Certificate, Biometric Report, My Curriculum…), tables have the same **Show N entries** choice, **Search** box, sortable column headings, "**Showing 1 to N of M entries**" line and **Previous / Next** pages, with each page's own settings (for example, no search box on Biometric Report, 50 rows per page on FDP Registration). Empty ones say "No data available in table".
+- **Tables keep VTOP's structure**: a title row across the top (eCertificates' "University Day Certificates"), cells that span several columns ("No Certificates to Download"), label cells beside their values (Hostel Fees' Name / Register Number grid), and coloured rows.
+- **Wide tables: your choice.** In Settings › Appearance › **Wide tables**, pick **Scroll sideways** (tables keep their width; swipe to see every column) or **Fit to screen** (tables shrink to the screen's width and long cells wrap, without breaking words). Long cell text is no longer cut short.
+- **Curriculum shows passed and failed courses** in green and red, as VTOP does (a failed course is listed again, in green, once it's passed), with a key under each category. Each course code now downloads its **syllabus**, like the download icon next to it on VTOP.
+- **Spot-light documents open.** Notices that are documents (such as "SDC Support for VTOP Login and Other Technical Issues") open the PDF, as on VTOP.
+- **Grade History: Download grade history**, the document VTOP offers on that page.
+- **Club Enrollment shows your clubs.** The locked Technical and Non-Technical club dropdowns show the clubs you're registered in, and the **Your Selection** box with both clubs and the Registered button appears, as on VTOP.
+- **Long text goes under its label.** A paragraph (a note, payment instructions, a long programme or school name in Profile) now sits under its label at full width instead of in a narrow column beside it; short values stay beside their labels. Change Password's **NOTE** is a heading with its bulleted list again, as on VTOP.
+- **Collapse all.** Screens with two or more sections that open and close (Profile, My Curriculum, Menu, "All details" on Attendance and Marks, VTOP's accordions) have a **Collapse all** button in the top bar while any section is open.
+- Release-signed APK: `VTOP-Native-V14-release.apk`, version `14.0-release`, shown in the app as "Version: V14-release".
+
 ## V13.3-release — 2026-11-03
 Revision: Academics Calendar as a real month calendar.
 - **Academics Calendar is now a month calendar, like a calendar app's month view.** Instead of a list of days (or a wide table), the month shows as a grid of weeks, Sunday to Saturday, with today's date circled. Each day shows its entries as small coloured bars: holidays in red, CAT and other tests in amber, class days in blue, days without classes in grey.
