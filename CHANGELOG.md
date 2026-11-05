@@ -9,6 +9,14 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V14.1-release — 2026-11-05
+Revision: marks behind each grade, the grade history PDF, and Club Enrollment's selection box.
+- **Grades: View marks.** Each course on Grades has **View marks**, like VTOP's View Mark button: it loads the course's class number, course type and every assessment (max mark, weightage, status, scored and weighted marks) as VTOP's table, with the total. Collapse all closes them.
+- **Grade History's download opens as a PDF.** VTOP labels that file with a wrong type, so phones offered it to unrelated apps (an AI app on one phone). The app now goes by the file itself, so it opens in your PDF viewer; any other mislabelled VTOP download is handled the same way.
+- **Club Enrollment's "Your Selection" box looks like VTOP's**: a tinted card with its heading, each club with a round number badge (green once chosen), the small "Club 1 · Technical" label, a tick before the club's name, a line between the two, and VTOP's green **Registered** button, which, as on VTOP, can't be pressed. The club dropdowns no longer show a made-up label above them.
+- Buttons VTOP turns off show as turned off and can't be pressed.
+- Release-signed APK: `VTOP-Native-V14.1-release.apk`, version `14.1-release`, shown in the app as "Version: V14.1-release".
+
 ## V14-release — 2026-11-05
 Every VTOP page now looks the way VTOP shows it: tables stay tables, lists stay lists.
 - **Tables are always tables, as on VTOP.** The list/table switch is gone everywhere. A table VTOP shows as a table is a table in the app, even when it's empty (its column headings stay, as on VTOP, instead of turning into a bulleted list), and rows with buttons or dropdowns stay rows of the table. Lists VTOP shows as lists stay lists.
