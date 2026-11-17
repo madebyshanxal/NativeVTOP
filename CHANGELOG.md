@@ -9,6 +9,21 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V15-release — 2026-11-17
+VTOP's new modules, a glass look with livelier motion, and update reminders that keep coming back.
+- **Every module in VTOP's menu, re-checked.** VTOP's menu has grown to 139 entries. All of them are listed and were opened against the live portal: 116 open natively. The other 22 are ones VTOP itself refuses or doesn't have (for example Library Due, Mess Change, Minor/ Honour); they now say so in plain words ("VTOP answered "not found"… this page isn't available on the portal right now") instead of a bare error code.
+- **Tables without a header row look like VTOP's.** Label-and-value tables (Class Messages, Online Transfer, Student Bank Info, the Wi-Fi details under Credentials) and numbered lists (Acknowledgement View's documents) no longer have their first row drawn as a header; in two-column ones the labels are shaded as labels.
+- **Empty tables keep their column headings** when VTOP writes them as plain cells (the wallet ledgers, Online Transfer's history, SAP Dashboard, Grade History's baskets) instead of becoming a line of text.
+- **Radio buttons and checkboxes are named by the words next to them** ("Apply New", "Previous Requests", "Regular Arrear", "Dose-1") instead of their group's heading.
+- **Fields get the right label**: the one right before them (My Scholarships' Organization Type was labelled "STUDENT NAME"; Hostel Room Master's dates were mislabelled). Rows of "label: value" read as label/value rows.
+- **My Scholarships opens** (it failed with "This page couldn't be displayed").
+- **VTOP's own "Unable to process your request" answer** shows as a notice, as on VTOP. Empty lists aren't drawn. In Support & Complaints, the "No tickets match your filters" row stays hidden until it applies. Contact Us has its icon in Menu.
+- **Update reminders.** While a newer version is out, the update pop-up now also opens after every sign-out (and when the session ends), on the sign-in page, and when you come back to the app after 10 minutes or more away, as well as every time the app starts.
+- **Glass.** Cards are see-through glass over soft glows of the theme's colours (in dark mode over the steel gradient, and now in light mode too). Dialogs, bottom sheets, dropdown menus and the update pop-up are glass panels, with the screen blurred behind them (the sign-in page included). On Android 11 and older, which can't blur, panels stay almost solid so text stays readable.
+- **Soft edges.** No more white or dark outlines: a card's edge is light catching its top that fades away down the sides, and outlined buttons, text fields, segmented buttons, switches, dividers and table grid lines are drawn much fainter, in light and dark mode alike.
+- **Livelier motion.** A small bounce as things land: cards rise in and settle, pages slide with a slight overshoot, sections open with a soft spring, dialogs pop in, the selected tab's icon bounces, and the Collapse all button pops in and out.
+- Release-signed APK: `VTOP-Native-V15-release.apk`, version `15.0-release`, shown in the app as "Version: V15-release".
+
 ## V14.1-release — 2026-11-05
 Revision: marks behind each grade, the grade history PDF, and Club Enrollment's selection box.
 - **Grades: View marks.** Each course on Grades has **View marks**, like VTOP's View Mark button: it loads the course's class number, course type and every assessment (max mark, weightage, status, scored and weighted marks) as VTOP's table, with the total. Collapse all closes them.
