@@ -9,6 +9,15 @@ Versioning is **Version.Revision**. Each release lives in its own folder, named 
 Current status: **Stable**. The beta series reached system stability, and V11-release was the first stable version.
 A version bump resets the revision to 0.
 
+## V15.1-release — 2026-11-17
+Revision: a crash fix for Credentials, and drop-down menus as real frosted glass in the Material 3 Expressive style.
+- **Credentials no longer closes the app.** Opening My Info › Credentials crashed V15: its Wi-Fi details are a table inside a table cell, and V15 sized table rows in a way that can't handle that. Rows are now measured directly, in the one table every module uses, so a cell can hold whatever VTOP puts in one (another table, a label/value list, a section) on any page. A column that holds such a block also gets room for it.
+- **Menus you can't see through.** A drop-down used to be a see-through panel, so the page title, buttons and text behind it showed through its choices. Every menu is now frosted glass: what is behind it is blurred until nothing can be read, then tinted, and only the menu's own area is frosted (the rest of the screen stays sharp). On Android 11 and older, which can't blur, menus are almost solid.
+- **Material 3 Expressive menus.** A rounded container that springs open from the control and closes the same way, the current choice shown as a filled pill with a tick, rounded touch feedback on each choice, and a long list opening with the current choice in view. The arrow on the control turns over, with a small bounce, while its menu is open.
+- **One menu everywhere.** Choose Semester, every VTOP drop-down in the modules, "Show N entries" on tables, the sign-in help form's Category and the web page's ⋮ menu are the same component, so they look and move alike. "Desktop site" is ticked like any other selected choice.
+- **Dialogs and sheets hide what's behind them too.** While a dialog, bottom sheet or the update pop-up is open, the whole screen is blurred behind it, top and bottom bars included (the bars used to stay sharp and show through), and the panels themselves are less see-through.
+- Release-signed APK: `VTOP-Native-V15.1-release.apk`, version `15.1-release`, shown in the app as "Version: V15.1-release".
+
 ## V15-release — 2026-11-17
 VTOP's new modules, a glass look with livelier motion, and update reminders that keep coming back.
 - **Every module in VTOP's menu, re-checked.** VTOP's menu has grown to 139 entries. All of them are listed and were opened against the live portal: 116 open natively. The other 22 are ones VTOP itself refuses or doesn't have (for example Library Due, Mess Change, Minor/ Honour); they now say so in plain words ("VTOP answered "not found"… this page isn't available on the portal right now") instead of a bare error code.
